@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+    font-size: 20px;
+}
+
+.business_card_1 {
+	width: 80%;
+	background-color: #D0F1F8;
+	border: 3px solid #D0F1F8;
+	box-sizing: border-box;
+}
+
+
+.company_logo{
+	font-family: Rokkit, serif;
+	font-size: 130%;
+	color: #405C6A;
+}
+
+.card_content {
+	padding-top: 0.1%;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+}
+
+.business_card_1 h3, .business_card_2 h3, .business_card_3 h3 {
+	font-weight: 300;
+	font-size: 90%;
+	line-height: 1.4;
+	margin-bottom: 5%;
+	color: #405C6A;
+}
+
+.card_contact {
+	text-align: center;
+	font-weight: 400;
+}
+
+.business_card_1 a {
+	font-size: 80%;
+	margin-top: 3%;
+	line-height: 1.4;
+	color: #405C6A;
+}
+
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ .business_card_1 a:focus, .business_card_1 a:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+
+
+ .business_card_2 { 
+	width: 80%;
+	background-color: #D0F1F8;
+	border: 3px solid #D0F1F8;
+	box-sizing: border-box;
+}
+
+.company_logo {
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	font-size: 85%;
+	text-decoration: none;
+	margin:auto;
+}
+
+.logo:focus, .logo:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+.card_email {
+	text-align: center;
+}
+
+.card_mobile {
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mobile {
+	font-size: 90%;
+	text-decoration: none;
+	margin: auto;
+}
+
+.card_mobile a {
+	font-size: 80%;
+	font-weight: 400;
+	line-height: 2;
+	color: #405C6A;
+}
+
+ .card_mobile a:focus, .card_mobile a:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+.mobile_img:hover .mobile_svg {
+	fill: #67a800;
+}
+
+.mobile_img:focus .mobile_svg {
+	fill: #67a800;
+}
+
+.card_email a {
+	font-size: 80%;
+	font-weight: 400;
+	margin-top: 3%;
+	line-height: 2;
+	color: #405C6A;
+}
+
+ .card_email a:focus, .card_email a:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+.share_container {
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mk-svg-icon{
+	fill: #405C6A;
+}
+
+.share {
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.social_media_1 {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+.social_media_2 {
+	margin-top: 0.5%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.social_media_3 {
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+
+.mk-square-pointed:hover .mk-svg-icon {
+	fill: #62B6BF;
+}
+
+.mk-square-pointed:focus .mk-svg-icon {
+	fill: #62B6BF;
+}
+
+.qr {
+	display: flex;
+	align-content: center;
+	max-width: 120px;
+	max-height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+}
+
+.qr_code {
+    max-width: 100%;
+	max-height: 100%;
+}
+
+.business_card_3 {
+	display: flex;
+	align-content: center;
+	width: 80%;
+	background-color: #D0F1F8;
+	border: 3px solid #D0F1F8;
+	margin-left: 1.5%;
+	box-sizing: border-box;
+}
+
+.block_1 {
+   width: 70%;
+}
+
+.card_mobile_2 {
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.card_mobile_2 a {
+	font-size: 50%;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #405C6A;
+}
+
+
+.mobile_2 {
+	text-decoration: none;
+	margin: auto;
+}
+
+ .card_mobile_2 a:focus, .card_mobile_2 a:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+.mobile_img_2:hover .mobile_svg {
+	fill: #62B6BF;
+}
+
+.mobile_img_2:focus .mobile_svg {
+	fill: #62B6BF;
+}
+
+.business_card_3 h3 {
+	margin-top: 2%;
+	font-size: 90%;
+}
+
+.card_email_2 {
+    text-align: center;
+}
+
+.card_email_2 a {
+	font-size: 50%;
+	font-weight: 400;
+	line-height: 1;
+	color: #405C6A;
+}
+
+ .card_email_2 a:focus, .card_email_2 a:hover {
+ 	color: #62B6BF;
+    text-decoration: none;
+}
+
+.block_2 {
+   display: flex;
+   align-content: center;
+   width: 30%;
+}
+
+.qr_2 {
+	display: flex;
+	align-content: center;
+	max-width: 80px;
+	max-height: 80px;
+	margin: auto;
+}
+
+.container_1 {
+    display: none;
+}
+
+
+
